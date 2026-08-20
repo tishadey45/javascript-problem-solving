@@ -2,7 +2,7 @@ function matchWinner(teamAGoals, teamBGoals) {
   // Write your code here…
   // console.log(teamAGoals,teamBGoals);
   if(typeof teamAGoals !== "number" || typeof teamBGoals !== "number"){
-    return "invalid"
+    return "Invalid"
   }
   if(teamAGoals > teamBGoals){
     return "Team A Won" ;
